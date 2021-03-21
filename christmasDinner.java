@@ -54,7 +54,7 @@ public class christmasDinner {
             }
             myReader.close();
 
-            //Five names are going to be send to permutation, the other three don't need to, iterate through the list of names.
+            //Five names are going to be sent to permutation, the other three don't need to (explained in readme), iterate through the list of names.
             for (int a = 0; a < listOfNames.size(); a++) {
                 for (int i = a; i < listOfNames.size() - 2; i++) {
                     Object[] twoLists = getListsPermutationOrNot(listOfNames, a, i);
